@@ -45,7 +45,7 @@ public:
 	std::string getAdresse() { return adresse; }
 	Geschlecht getGeschlecht() { return geschlecht; }
 
-	std::string getGanzenNamen() { return nachname + ", " + vorname;; }
+	std::string getGanzenNamen() { return nachname + ", " + vorname; }
 
 	// andere Methoden
 	void zeigeKundendaten();

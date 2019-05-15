@@ -56,10 +56,8 @@ void Kunde::kundendatenEingeben()
 	cin >> eingabeGeschlecht;
 	setGeschlecht((Geschlecht)eingabeGeschlecht);
 
-
-
-
-	cout << "Viel Dank! Ihre neue Daten lauten wie folgt" << endl;
+	cout << endl;
+	cout << "Viel Dank! Ihre neue Daten lauten wie folgt" << endl << endl;;
 	zeigeKundendaten();
 
 

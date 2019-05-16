@@ -15,6 +15,12 @@ int main()
 	// Array von Klasse Kunde mit 100 Elementen
 	Kunde kunden[100];
 
+
+	{
+		Kunde destruktortest; // Das Objekt ist nur in diesem Bock gültig , deswegen kommt die Meldung auch das der Dekonstrukot aufgrefuen wurde
+	}
+
+
 	/*
 	kunde1.zeigeKundendaten();
 	kunde2.zeigeKundendaten();
@@ -44,6 +50,9 @@ int main()
 	}
 
 
+
+	cout << "Es sind folgende Kunden angelegt" << endl;
+	cout << endl;
 	for (int i = 0; i < anzahlAngelegterKunden; i++)
 	{
 		kunden[i].zeigeKundendaten();

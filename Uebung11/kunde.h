@@ -27,7 +27,15 @@ public:
 
 	// Standard Konstruktor
 	// TODO ist scheinbar zu defnieren, wenns fehlt meckert der rum
-	Kunde() {};
+	Kunde();
+
+
+	// Deklaration des Destruktos
+	// spezielle Methdode, die aufgerufen wird, wenn ein Objekt dieser Klasse "zerstört" wird
+	// es gibt immer nur EINEN Dekonstruktor
+	~Kunde();
+
+
 
 	// Allgemeiner Konstruktor
 	Kunde(int, std::string, std::string, std::string, Geschlecht);

@@ -29,7 +29,6 @@ Kunde::~Kunde()
 
 
 // Allgemeiner Konstruktor
-// TODO std:: muss hier vor string davor aufgrund der signatur???
 Kunde::Kunde(int newKundennummer, string newVorname, string newNachname, string newAdresse, Geschlecht newGeschlecht)
 {
 	kundennummer = newKundennummer;

@@ -8,7 +8,7 @@ int main()
 	cout << "Programm zu Uebung 11" << endl << endl;
 
 
-	// TODO Arrays mit Allgemeinen-Konstruktoren?
+	// TODO Arrays mit Allgemeinen-Konstruktoren? -> OKAY scheinbar ist das nicht so einfach möglich, da für array der standard konstruktor benötigt wird
 	Kunde kunde1(123,"Max","Mustermann","Musterstrasse 5a", a);
 	Kunde kunde2(456, "Maxine", "Musterfrau", "Baumstrasse", w);
 
@@ -21,7 +21,7 @@ int main()
 
 
 	{
-		Kunde destruktortest; // Das Objekt ist nur in diesem Bock gültig , deswegen kommt die Meldung auch das der Dekonstrukot aufgrefuen wurde
+		Kunde destruktortest; // Das Objekt ist nur in diesem Bock gültig , deswegen kommt die Meldung auch das der Destruktor aufgerufen wurde
 	}
 
 

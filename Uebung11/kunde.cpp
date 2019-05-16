@@ -113,10 +113,10 @@ void Kunde::kundendatenEingeben()
 
 	adresse = strassenname + " " + hausnummer + ", " + plz + " " + ort;
 
+
 	cout << "Zum Schluss Ihr Geschlecht [m,w,d,a,z]: ";
 	cin >> eingabeGeschlecht;
-
-
+	
 	switch (eingabeGeschlecht)
 	{
 	case 'm': geschlecht = m; break;
@@ -124,7 +124,7 @@ void Kunde::kundendatenEingeben()
 	case 'd': geschlecht = d; break;
 	case 'a': geschlecht = a; break;
 	case 'z': geschlecht = z; break;
-	default: cout << "Geschlecht nicht bekannt, wird als 'unbekannt' gesetzt " << endl ; geschlecht = u;  break;
+	default: cout << "Geschlecht nicht bekannt, wird als 'zitteraal' gesetzt " << endl ; geschlecht = z;  break;
 	}
 
 

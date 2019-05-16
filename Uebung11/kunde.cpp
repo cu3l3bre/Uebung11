@@ -47,6 +47,7 @@ void Kunde::kundendatenEingeben()
 	cout << "Nun Ihre Adresse: ";
 	cin >> adresse;
 
+	// TODO Anzeige und Eingabe von Zahlen als Geschlecht ist auch irgendwie doof
 	// TODO geht so nicht?
 	//cout << "Zum Schluss Ihr Geschlecht: ";
 	//cin >> geschlecht;

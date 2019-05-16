@@ -9,7 +9,7 @@ m,	// maennlich
 w,	// weiblich
 d,	// divers
 a,	// aal
-z	// zwitter
+z	// zitteraal
 };
 
 
@@ -26,6 +26,7 @@ private:
 public:
 
 	// Standard Konstruktor
+	// TODO ist scheinbar zu defnieren, wenns fehlt meckert der rum
 	Kunde() {};
 
 	// Allgemeiner Konstruktor

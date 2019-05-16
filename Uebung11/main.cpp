@@ -8,7 +8,7 @@ int main()
 	cout << "Programm zu Uebung 11" << endl << endl;
 
 
-	// Arrays mit Allgemeinen-Konstruktoren?
+	// TODO Arrays mit Allgemeinen-Konstruktoren?
 	Kunde kunde1(123,"Max","Mustermann","Musterstrasse", a);
 	Kunde kunde2(456, "Maxine", "Musterfrau", "Baumstrasse", w);
 

@@ -9,7 +9,8 @@ m,	// maennlich
 w,	// weiblich
 d,	// divers
 a,	// aal
-z	// zitteraal
+z,	// zitteraal
+u	// unbekannt
 };
 
 
@@ -26,13 +27,12 @@ private:
 public:
 
 	// Standard Konstruktor
-	// TODO ist scheinbar zu defnieren, wenns fehlt meckert der rum
 	Kunde();
 
 
-	// Deklaration des Destruktos
+	// Deklaration des Destruktors
 	// spezielle Methdode, die aufgerufen wird, wenn ein Objekt dieser Klasse "zerstört" wird
-	// es gibt immer nur EINEN Dekonstruktor
+	// es gibt immer nur EINEN Destruktor
 	~Kunde();
 
 
@@ -40,14 +40,14 @@ public:
 	// Allgemeiner Konstruktor
 	Kunde(int, std::string, std::string, std::string, Geschlecht);
 	
-	// Set Methoden
+	// Set Methoden (Setter)
 	void setKundennummer(int neuKundennummer) { kundennummer = neuKundennummer; }
 	void setVorname(std::string neuVorname) { vorname = neuVorname; }
 	void setNachname(std::string neuNachname) { nachname = neuNachname; }
 	void setAdresse(std::string neuAdresse) { adresse = neuAdresse; }
 	void setGeschlecht(Geschlecht neuGeschlecht) { geschlecht = neuGeschlecht; }
 
-	// Get Methoden
+	// Get Methoden (Getter)
 	int getKundennummer() { return kundennummer; }
 	std::string getVorname(){ return vorname; }
 	std::string getNachname() { return nachname; }

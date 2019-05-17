@@ -21,7 +21,7 @@
     <ClCompile Include="kunde.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Testklasse.cpp">
+    <ClCompile Include="kundenmanager.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="kunde.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Testklasse.h">
+    <ClInclude Include="kundenmanager.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

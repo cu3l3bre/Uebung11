@@ -1,5 +1,6 @@
 #include <iostream>
 #include "kunde.h"
+#include "kundenmanager.h"
 
 using namespace std;
 
@@ -41,7 +42,6 @@ int main()
 #pragma endregion
 
 
-
 	// mehrere Kunden anlegen
 	
 	// Array von Klasse Kunde mit 100 Elementen
@@ -51,6 +51,17 @@ int main()
 	char eingabeWeitermachen = 'j';
 	int anzahlAngelegterKunden = 0;
 
+
+
+
+
+	KundenManager manager1;
+
+	kunden[0] =  manager1.kundeAnlegen();
+
+	kunden[0].zeigeKundendaten();
+
+	/*
 
 	cout << "Hallo, Bitte legen Sie Kundendaten an" << endl << endl;
 	while (eingabeWeitermachen == 'j')
@@ -70,7 +81,7 @@ int main()
 	{
 		kunden[i].zeigeKundendaten();
 	}
-
+	*/
 
 	system("pause");
 	return 0;

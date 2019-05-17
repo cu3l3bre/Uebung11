@@ -32,7 +32,7 @@ public:
 
 	// Deklaration des Destruktors
 	// spezielle Methdode, die aufgerufen wird, wenn ein Objekt dieser Klasse "zerstört" wird
-	// es gibt immer nur EINEN Destruktor
+	// es gibt immer nur EINEN Destruktor, meinstens verwenet um Speicher wieder freizugeben
 	~Kunde();
 
 
@@ -56,6 +56,8 @@ public:
 
 	std::string getGanzenNamen() { return nachname + ", " + vorname; }
 
+
+	// TODO diese Methoden sind in die Klasse "KundenMangager" ausgelagert worden, werden also hier auskommentiert um Dopplung zu vermeiden
 	// andere Methoden
 	void zeigeKundendaten();
 	void kundendatenEingeben();

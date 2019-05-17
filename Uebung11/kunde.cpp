@@ -26,8 +26,6 @@ Kunde::~Kunde()
 }
 
 
-
-
 // Allgemeiner Konstruktor
 Kunde::Kunde(int newKundennummer, string newVorname, string newNachname, string newAdresse, Geschlecht newGeschlecht)
 {
@@ -38,6 +36,11 @@ Kunde::Kunde(int newKundennummer, string newVorname, string newNachname, string 
 	geschlecht = newGeschlecht;
 }
 
+
+
+
+// TODO diese Methoden sind in die Klasse "KundenMangager" ausgelagert worden, werden also hier auskommentiert um Dopplung zu vermeiden
+/*
 
 // Methode, um die Daten eines Kunden auf der Konsole anzuzeigen
 void Kunde::zeigeKundendaten()
@@ -115,6 +118,7 @@ void Kunde::kundendatenEingeben()
 	cout << endl;
 	cout << "Vielen Dank! Ihre neue Daten lauten wie folgt" << endl << endl;;
 	zeigeKundendaten();
-
+	
 
 }
+*/

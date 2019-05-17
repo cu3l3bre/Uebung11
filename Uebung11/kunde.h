@@ -5,12 +5,12 @@
 
 enum Geschlecht
 {
-m,	// maennlich
-w,	// weiblich
-d,	// divers
-a,	// aal
-z,	// zitteraal
-u	// unbekannt
+	m,	// maennlich
+	w,	// weiblich
+	d,	// divers
+	a,	// aal
+	z,	// zitteraal
+	u	// unbekannt
 };
 
 
@@ -59,8 +59,8 @@ public:
 
 	// TODO diese Methoden sind in die Klasse "KundenMangager" ausgelagert worden, werden also hier auskommentiert um Dopplung zu vermeiden
 	// andere Methoden
-	void zeigeKundendaten();
-	void kundendatenEingeben();
+	//void zeigeKundendaten();
+	//void kundendatenEingeben();
 
 
 

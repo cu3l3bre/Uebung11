@@ -1,5 +1,5 @@
 #include <iostream>
-#include "kunde.h"
+//#include "kunde.h"
 #include "kundenmanager.h"
 
 using namespace std;
@@ -8,6 +8,7 @@ int main()
 {
 	cout << "Programm zu Uebung 11" << endl << endl;
 
+		
 
 #pragma region Aufgabe1 
 
@@ -44,22 +45,30 @@ int main()
 
 	// mehrere Kunden anlegen
 	
+	// Objekt von Kundenmanager erstellen
+	KundenManager manager1;
+
 	// Array von Klasse Kunde mit 100 Elementen
 	Kunde kunden[100];
 
 
 	char eingabeWeitermachen = 'j';
 	int anzahlAngelegterKunden = 0;
+	
+
+
+	//kunden[0] =  manager1.kundeAnlegen();
+
+	//manager1.zeigeKundendaten(kunden[0]);
+
+	manager1.mehrKundenAnlegen();
+
+
+	manager1.alleKundendatenAnzeigen();
 
 
 
-
-
-	KundenManager manager1;
-
-	kunden[0] =  manager1.kundeAnlegen();
-
-	kunden[0].zeigeKundendaten();
+	// kunden[0].zeigeKundendaten();
 
 	/*
 

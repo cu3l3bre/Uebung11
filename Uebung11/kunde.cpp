@@ -47,29 +47,14 @@ void Kunde::zeigeKundendaten()
 	cout << "Nachname:\t" << nachname << endl;
 	cout << "Adresse:\t" << adresse << endl;
 	
-	if (geschlecht == 0)
+	switch (geschlecht)
 	{
-		cout << "Geschlecht\t" << "maennlich" << endl;
-	}
-	else if (geschlecht == 1)
-	{
-		cout << "Geschlecht\t" << "weiblich" << endl;
-	}
-	else if (geschlecht == 2)
-	{
-		cout << "Geschlecht\t" << "divers" << endl;
-	}
-	else if (geschlecht == 3)
-	{
-		cout << "Geschlecht\t" << "aal" << endl;
-	}
-	else if (geschlecht == 4)
-	{
-		cout << "Geschlecht\t" << "zitteraal" << endl;
-	}
-	else
-	{
-		cout << "Geschlecht\t" << "unbekannt" << endl;
+	case 0: cout << "Geschlecht\t" << "maennlich" << endl; break;
+	case 1:	cout << "Geschlecht\t" << "weiblich" << endl; break;
+	case 2:	cout << "Geschlecht\t" << "divers" << endl; break;
+	case 3:	cout << "Geschlecht\t" << "aal" << endl; break;
+	case 4:	cout << "Geschlecht\t" << "zitteraal" << endl; break;
+	default: cout << "Geschlecht\t" << "unbekannt" << endl; break;
 	}
 	cout << endl;
 }
